@@ -18,13 +18,6 @@ export default function Home() {
       </main>
 
       <Footer />
-      <Script>
-         document.onvisibilitychange = function() {
-            if (document.visibilityState === 'hidden') {
-              alert("test");
-            }
-         };
-      </Script>
     </div>
   )
 }

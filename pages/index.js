@@ -3,6 +3,11 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
+   document.onvisibilitychange = function() {
+            if (document.visibilityState === 'hidden') {
+                alert("test");
+            }
+        };
   return (
     <div className="container">
       <Head>

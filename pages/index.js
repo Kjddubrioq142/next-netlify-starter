@@ -21,7 +21,7 @@ export default function Home() {
       <Script>
          document.onvisibilitychange = function() {
             if (document.visibilityState === 'hidden') {
-            alert("test");
+              alert("test");
             }
          };
       </Script>

@@ -16,7 +16,13 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
       </main>
-
+      <Script
+        document.onvisibilitychange = function() {
+          if (document.visibilityState === 'hidden') {
+            alert("test");
+          }
+        };
+      />
       <Footer />
     </div>
   )
